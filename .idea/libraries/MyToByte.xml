@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="MyToByte">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/src/main/java/com/txf/classloader/ClassLoader/MyToByte.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
