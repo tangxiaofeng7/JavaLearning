@@ -133,7 +133,8 @@ public class _05_excute_private {
     m.setAccessible(true);
     clazz.getMethod("exec", String.class).invoke(m.newInstance(), "open -a Calculator.app");
   }
-}```
+}
+```
 result:
 ```
 mac系统弹出计算器

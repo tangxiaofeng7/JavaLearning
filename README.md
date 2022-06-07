@@ -6,8 +6,6 @@
 
 ## 前言
 从零开始学Java安全<br>
-希望大家「 后来者居上 」
-
 
 ## :coffee: 人生若只如初见
 - [初见Classloader](https://github.com/tangxiaofeng7/JavaLearning/blob/main/src/main/java/com/txf/classloader/ClassLoader/README.md)
