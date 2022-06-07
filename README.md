@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://github.com/tangxiaofeng7/JavaLearning"> <img src="https://badgen.net/lgtm/langs/g/tangxiaofeng7/JavaLearning/java"></a>
+    <a href="https://github.com/tangxiaofeng7/JavaLearning"> <img src="https://badgen.net/lgtm/langs/g/tangxiaofeng7/JavaLearning"></a>
     <a href="https://github.com/tangxiaofeng7/JavaLearning"> <img src="https://badgen.net/github/stars/tangxiaofeng7/JavaLearning?icon=github&color=4ab8a1"></a>
 </div>
 <br>
