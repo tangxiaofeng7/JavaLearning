@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>groupId</groupId>
+    <artifactId>JavaLearning</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>8</source>
+          <target>8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <properties>
+        <asm.version>9.0</asm.version>
+        <java.version>1.8</java.version>
+        <jstl.version>1.2</jstl.version>
+        <bcel.version>5.2</bcel.version>
+        <xalan.version>2.7.2</xalan.version>
+        <dom4j.version>1.6.1</dom4j.version>
+        <druid.version>1.1.24</druid.version>
+        <jsoup.version>1.12.2</jsoup.version>
+        <xerces.version>2.4.0</xerces.version>
+        <jsp-api.version>2.2</jsp-api.version>
+        <tomcat.version>8.5.31</tomcat.version>
+        <logback.version>1.2.3</logback.version>
+        <okhttp3.version>4.4.1</okhttp3.version>
+        <jackson.version>2.8.0</jackson.version>
+        <javaweb.version>2.0.3</javaweb.version>
+        <mvel2.version>2.4.0.Final</mvel2.version>
+        <fastjson.version>1.2.47</fastjson.version>
+        <commons-io.version>2.6</commons-io.version>
+        <slf4j-api.version>1.7.30</slf4j-api.version>
+        <javax.mail.version>1.4.7</javax.mail.version>
+        <freemarker.version>2.3.23</freemarker.version>
+        <commons-lang.version>2.6</commons-lang.version>
+        <servlet-api.version>3.1.0</servlet-api.version>
+        <commons-dbcp.version>1.4</commons-dbcp.version>
+        <commons-codec.version>1.11</commons-codec.version>
+        <hibernate.version>5.4.21.Final</hibernate.version>
+        <aspectjweaver.version>1.9.7</aspectjweaver.version>
+        <commons-beanutils.version>1.9.2</commons-beanutils.version>
+        <commons-fileupload.version>1.4</commons-fileupload.version>
+        <javaweb-javassist.version>3.28.01</javaweb-javassist.version>
+        <springframework.version>5.2.8.RELEASE</springframework.version>
+        <commons-collections.version>3.2.1</commons-collections.version>
+        <spring-data-jpa.version>2.3.4.RELEASE</spring-data-jpa.version>
+        <spring-data-rest.version>3.3.4.RELEASE</spring-data-rest.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <javax.persistence-api.version>2.2</javax.persistence-api.version>
+        <mysql-connector-java.version>5.1.49</mysql-connector-java.version>
+
+        <jsp-api.version>2.3.3</jsp-api.version>
+        <fastjson.version>1.2.23</fastjson.version>
+        <unboundid.version>7.3.0.0</unboundid.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>${commons-fileupload.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectjweaver.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servlet-api.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>${jsp-api.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>${commons-collections.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.javaweb</groupId>
+            <artifactId>javaweb-utils</artifactId>
+            <version>${javaweb.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${druid.version}</version>
+        </dependency>
+
+        <!--        <dependency>-->
+        <!--            <groupId>com.github.frohoff</groupId>-->
+        <!--            <artifactId>ysoserial</artifactId>-->
+        <!--            <version>0.0.5</version>-->
+        <!--        </dependency>-->
+
+        <dependency>
+            <groupId>com.unboundid</groupId>
+            <artifactId>server-sdk</artifactId>
+            <version>${unboundid.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>javassist</artifactId>
+                    <groupId>org.javassist</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-dbcp</groupId>
+            <artifactId>commons-dbcp</artifactId>
+            <version>${commons-dbcp.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-commons</artifactId>
+            <version>${asm.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.bcel</groupId>
+            <artifactId>bcel</artifactId>
+            <version>${bcel.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xalan</groupId>
+            <artifactId>xalan</artifactId>
+            <version>${xalan.version}</version>
+        </dependency>
+
+        <!--        <dependency>-->
+        <!--            <groupId>org.javassist</groupId>-->
+        <!--            <artifactId>javassist</artifactId>-->
+        <!--            <version>${javassist.version}</version>-->
+        <!--        </dependency>-->
+
+        <dependency>
+            <groupId>org.javaweb</groupId>
+            <artifactId>javaweb-javassist</artifactId>
+            <version>${javaweb-javassist.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>${commons-beanutils.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j-api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-catalina</artifactId>
+            <version>${tomcat.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    
+</project>
