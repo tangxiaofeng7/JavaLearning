@@ -3,12 +3,9 @@ RMI（Remote Method Invocation），远程⽅法调⽤
 
 RMI分为三个主体部分：
 
-Client-客户端：客户端调用服务端的方法
-Server-服务端：远程调用方法对象的提供者，也是代码真正执行的地方，执行结束会返回给客户端一个方法执行的结果。
-Registry-注册中心：其实本质就是一个map，相当于是字典一样，用于客户端查询要调用的方法的引用。
-
-> JDK 1.7
-Java版本低于7u21、6u45，或者设置了 java.rmi.server.useCodebaseOnly=false
+· Client-客户端：客户端调用服务端的方法<br>
+· Server-服务端：远程调用方法对象的提供者，也是代码真正执行的地方，执行结束会返回给客户端一个方法执行的结果。<br>
+· Registry-注册中心：其实本质就是一个map，相当于是字典一样，用于客户端查询要调用的方法的引用。<br>
 
 ### RMI Server
 

@@ -1,7 +1,7 @@
 ## 初识JDBC
 
-• Java数据库连接
-• Java API，它定义客户端如何访问数据库
+• Java数据库连接<br>
+• Java API，客户端访问数据库<br>
 
 
 ### JDBC实例
