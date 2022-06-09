@@ -139,11 +139,7 @@
             <version>${druid.version}</version>
         </dependency>
 
-        <!--        <dependency>-->
-        <!--            <groupId>com.github.frohoff</groupId>-->
-        <!--            <artifactId>ysoserial</artifactId>-->
-        <!--            <version>0.0.5</version>-->
-        <!--        </dependency>-->
+
 
         <dependency>
             <groupId>com.unboundid</groupId>
@@ -229,6 +225,7 @@
             <version>${tomcat.version}</version>
             <scope>provided</scope>
         </dependency>
+
     </dependencies>
     
 </project>

@@ -7,5 +7,6 @@
 - [初见 JDBC](https://github.com/tangxiaofeng7/JavaLearning/blob/main/src/main/java/com/txf/JDBC/README.md)
 - [初见 Reflection](https://github.com/tangxiaofeng7/JavaLearning/blob/main/src/main/java/com/txf/Reflection/README.md)
 - [初见 RMI](https://github.com/tangxiaofeng7/JavaLearning/blob/main/src/main/java/com/txf/RMI/README.md)
+- [初见 ysoserial](https://github.com/tangxiaofeng7/JavaLearning/blob/main/src/main/java/com/txf/ysoserial/README.md)
 
 
